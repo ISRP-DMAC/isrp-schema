@@ -49,7 +49,7 @@ _default: _status
 # Initialize a new project (use this for projects not yet under version control)
 [group('project management')]
 setup: _check-config _git-init install _git-add && _setup_part2
-  git commit -m "Initialise git with minimal project" -a
+  git commit -m "Initialise git with minimal project" -a >/dev/null 2>&1 || true
 
 _setup_part2: gen-project gen-doc
   @echo
