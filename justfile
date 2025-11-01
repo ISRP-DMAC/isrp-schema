@@ -205,10 +205,17 @@ _test-examples: _ensure_examples_output
     --output-directory examples/output \
     --schema {{source_schema_path}} > examples/output/README.md
 
-# Generate merged model
+# make sure docs/schema exists (Windows-safe)
+_gen-yaml-mkdir:
+    #!{{shebang}}
+    from pathlib import Path
+    Path("docs/schema").mkdir(parents=True, exist_ok=True)
+
+# generate merged schema yaml
 _gen-yaml:
-  -mkdir -p docs/schema
+  just _gen-yaml-mkdir
   uv run gen-yaml {{source_schema_path}} > {{merged_schema_path}}
+
 
 # Run documentation server
 _serve:
