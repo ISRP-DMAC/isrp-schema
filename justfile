@@ -110,7 +110,7 @@ gen-python:
 [group('model development')]
 gen-project:
   uv run gen-project {{config_yaml}} -d {{dest}} {{source_schema_path}}
-  mv {{dest}}/*.py {{pymodel}}
+  just move-generated-py
   uv run gen-pydantic {{gen_pydantic_args}} {{source_schema_path}} > {{pymodel}}/{{schema_name}}_pydantic.py
   uv run gen-java {{gen_java_args}} --output-directory {{dest}}/java/ {{source_schema_path}}
   @if [ ! ${{gen_owl_args}} ]; then \
@@ -120,6 +120,14 @@ gen-project:
   @if [ ! ${{gen_ts_args}} ]; then \
     uv run gen-typescript {{gen_ts_args}} {{source_schema_path}} > {{dest}}/typescript/{{schema_name}}.ts || true ; \
   fi
+move-generated-py:
+    #!{{shebang}}
+    import pathlib, shutil
+    src = pathlib.Path("{{dest}}")
+    dst = pathlib.Path("{{pymodel}}")
+    dst.mkdir(parents=True, exist_ok=True)
+    for f in src.glob("*.py"):
+        shutil.move(str(f), dst / f.name)
 
 # ============== Migrations recipes for Copier ==============
 

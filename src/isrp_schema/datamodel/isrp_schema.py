@@ -1,5 +1,5 @@
 # Auto generated from isrp_schema.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-10-31T16:00:51
+# Generation date: 2025-10-31T21:57:44
 # Schema: isrp-schema
 #
 # id: https://w3id.org/haixia369/isrp-schema
