@@ -1,0 +1,22 @@
+id: https://w3id.org/haixia369/isrp-schema
+name: isrp-schema
+title: isrp-schema
+description: |-
+  This is the project description.
+license: MIT
+see_also:
+  - https://haixia369.github.io/isrp-schema
+
+prefixes:
+  isrp_schema: https://w3id.org/haixia369/isrp-schema/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+default_prefix: isrp_schema
+default_range: string
+
+imports:
+  - linkml:types
+  - isrp_schema:isrp-schema
