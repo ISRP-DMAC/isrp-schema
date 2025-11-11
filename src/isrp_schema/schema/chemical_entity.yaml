@@ -20,3 +20,4 @@ default_range: string
 imports:
   - linkml:types
   - isrp_schema:isrp-schema
+  - isrp-schema:isrp-schema
