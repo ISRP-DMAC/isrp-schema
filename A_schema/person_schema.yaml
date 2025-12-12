@@ -1,0 +1,30 @@
+id: https://example.org/person
+name: PersonSchema
+
+prefixes:
+  ex: https://example.org/
+
+default_prefix: ex
+
+classes:
+  Person:
+    description: A simple person
+    attributes:
+      name:
+        description: The person's full name
+        range: string
+        required: true
+      age:
+        description: Age in years
+        range: integer
+        minimum_value: 0
+
+  PersonCollection:
+    description: A container for multiple persons
+    attributes:
+      persons:
+        range: Person
+        multivalued: true
+
+
+
