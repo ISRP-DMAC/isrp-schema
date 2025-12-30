@@ -1,10 +1,14 @@
-id: https://example.org/person
+id: http://example.org/person
 name: PersonSchema
 
 prefixes:
-  ex: https://example.org/
+  linkml: https://w3id.org/linkml/
+  ex: http://example.org/
 
 default_prefix: ex
+
+imports:
+    - linkml:types
 
 classes:
   Person:
@@ -23,6 +27,7 @@ classes:
     description: A container for multiple persons
     attributes:
       persons:
+        description: A list of persons
         range: Person
         multivalued: true
 

@@ -1,0 +1,53 @@
+{
+    "$defs": {
+        "Person": {
+            "additionalProperties": false,
+            "description": "A simple person",
+            "properties": {
+                "age": {
+                    "description": "Age in years",
+                    "minimum": 0,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "The person's full name",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "title": "Person",
+            "type": "object"
+        },
+        "PersonCollection": {
+            "additionalProperties": false,
+            "description": "A container for multiple persons",
+            "properties": {
+                "persons": {
+                    "description": "A list of persons",
+                    "items": {
+                        "$ref": "#/$defs/Person"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "PersonCollection",
+            "type": "object"
+        }
+    },
+    "$id": "http://example.org/person",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "metamodel_version": "1.7.0",
+    "title": "PersonSchema",
+    "type": "object",
+    "version": null
+}
+
