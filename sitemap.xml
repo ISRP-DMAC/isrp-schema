@@ -1,135 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://haixia369.github.io/isrp-schema/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/Person/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/PersonCollection/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/personCollection__persons/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/person__age/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/person__name/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/person_schema/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Boolean/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Curie/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Date/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/DateOrDatetime/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Datetime/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Decimal/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Double/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Float/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Integer/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Jsonpath/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Jsonpointer/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/NamedThing/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Ncname/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Nodeidentifier/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Objectidentifier/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Person/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/PersonCollection/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/PersonStatus/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Sparqlpath/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/String/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Time/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Uri/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/Uriorcurie/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/age_in_years/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/birth_date/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/description/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/entries/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/id/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/isrp-schema/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/name/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/primary_email/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://haixia369.github.io/isrp-schema/elements/vital_status/</loc>
-         <lastmod>2025-12-12</lastmod>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Boolean/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Curie/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Date/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/DateOrDatetime/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Datetime/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Decimal/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Double/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Float/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Integer/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Jsonpath/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Jsonpointer/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Ncname/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Nodeidentifier/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Objectidentifier/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Sparqlpath/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/String/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Time/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Uri/</loc>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://haixia369.github.io/isrp-schema/types/Uriorcurie/</loc>
+         <lastmod>2025-12-30</lastmod>
     </url>
 </urlset>
