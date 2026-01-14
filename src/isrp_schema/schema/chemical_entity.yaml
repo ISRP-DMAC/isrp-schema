@@ -1,4 +1,3 @@
----
 id: https://w3id.org/haixia369/isrp-schema
 name: isrp-schema
 title: isrp-schema
@@ -20,4 +19,5 @@ default_range: string
 
 imports:
   - linkml:types
+  - isrp_schema:isrp-schema
   - isrp-schema:isrp-schema
